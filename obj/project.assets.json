@@ -990,11 +990,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\allys\\Projects\\PlayApp\\Services\\Play.Common\\Play.Common.csproj",
+      "projectUniqueName": "C:\\Users\\allys\\Projects\\PlayApp\\Services\\Play.Common\\Play.Common.csproj",
       "projectName": "Play.Common",
-      "projectPath": "c:\\Users\\allys\\Projects\\PlayApp\\Services\\Play.Common\\Play.Common.csproj",
+      "projectPath": "C:\\Users\\allys\\Projects\\PlayApp\\Services\\Play.Common\\Play.Common.csproj",
       "packagesPath": "C:\\Users\\allys\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\allys\\Projects\\PlayApp\\Services\\Play.Common\\obj\\",
+      "outputPath": "C:\\Users\\allys\\Projects\\PlayApp\\Services\\Play.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\allys\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1003,7 +1003,8 @@
         "net6.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/allysonguilherme/index.json": {}
       },
       "frameworks": {
         "net6.0": {

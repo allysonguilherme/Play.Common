@@ -7,7 +7,7 @@ namespace Play.Common.MongoDB
 {
     public static class Extensions
     {
-        public static IServiceCollection AddMongo<T>(this IServiceCollection services, string collectionName){
+        public static IServiceCollection AddMongo(this IServiceCollection services, string collectionName){
             var provider = services.BuildServiceProvider();
 
             var configuration = provider.GetService<IConfiguration>();
